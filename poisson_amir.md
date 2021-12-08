@@ -8,7 +8,7 @@
 	- The second process is governed by a Poisson distribution that generates counts, some of which may be zero. 
 - The mixture is described as follows:
 
-$$Pr(Y=0) = \pi + (1-\pi)e^{-\lambda}$$
+$Pr(Y=0) = \pi + (1-\pi)e^{-\lambda}$
 
 $$Pr(Y=y_i) = (1-\pi) \frac{\lambda^{y_i} e^{-\lambda}}{y_i!}, ~~~~y_i=1,2,3,\dots$$
 
